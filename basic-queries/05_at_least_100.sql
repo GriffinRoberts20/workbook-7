@@ -1,6 +1,6 @@
 USE northwind;
 SELECT	
-	ProductID, ProductName, UnitsInStock
+	ProductID, ProductName, UnitPrice, UnitsInStock
 FROM
 	northwind.products
 WHERE
